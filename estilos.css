@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #dfdbe5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23fbeae4' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    color: #1e272e;
+    color: #fff;
+    font-size: 16px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/*Navegation*/
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.nav-brand{
+    width: 75px;
+    margin: 10px;
+}
+.nav-main ul{
+    display: flex;
+    
+}
+.nav-main ul li{
+    padding: 10px;
+}
+
+.nav-main ul li a{
+    padding: 6px;
+}
+
+.nav-main ul li a:hover{
+    border-bottom:  2px solid black;
+}
+
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+.nav-menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav-menuli{
+    float: left;
+}
+.nav-menu li:hover >ul{
+    display: block;
+}
+.nav-menu li ul li {
+    position: relative;
+}
+.nav-menu li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+hr{
+    margin: 10px 0;
+}
+
+.showcase {
+    width: 100%;
+    height: 550px;
+    background: url("./img/botas.png")  no-repeat center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    border-color: #1e272e;
+  }
+  img{
+      border: #1e272e;
+  }
+  .btn{
+      cursor: pointer;
+      display: inline-block;
+      border: 0;
+      font-weight: bold;
+      padding: 10px 20px;
+      background: #262626;
+      color: #ffff;
+      font-size: 15px;
+      border: 1px solid white;
+      margin: 10px 0;
+  }
+.btn:hover{
+    opacity: 0.9;
+}
+.showcase h2,
+.showcase p{
+    margin-bottom: 10px;
+}
+.showcase .btn {
+    margin-top: 20px;
+}
+h3{
+    color: black;
+}
+
+h2{
+    color: #1e272e;
+}
+.new-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: 20px;
+    font-family: "AdihausDIN,Helvetica,Arial,sans-serif";
+}
+.product-card-title{
+    color: black;
+}
+.new-cards,.product-card-category{
+    background-color: transparent;
+}
+.product-card-category{
+    color: #767677;
+}
+.product-card-label{
+    color: darkblue;
+}
+.name{
+    color: black;
+    text-align: center;
+    padding: 5%;
+    background-color: #767677;
+    
+}
+.escudos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: 20px;
+    width: 90px;
+    max-height: 100%;
+    margin-left: -30px;
+}
+.img_2{
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 3px;
+    margin: 10px;
+}
+.poleras{
+   height:  276px;
+    right: 276px;
+}
+.campana{
+    width: 100%;
+    height: 550px;
+    background: url("./img/adidas-campana-detras.jpg")  no-repeat center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    border-color: #1e272e;
+}
